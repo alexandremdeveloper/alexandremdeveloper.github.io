@@ -2,6 +2,21 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+.cabecalho{
+    padding: 30px 0;
+}
+ul{
+    list-style: none;
+}
+.info{
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
 .conteudo {
     width: 80%;
     margin: 0 auto;
@@ -9,16 +24,39 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    background-color: greenyellow;
+    background-color: rgb(228, 238, 213);
+}
+.rede-social{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
 }
 .perfil {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     margin-right: 10px;
-    border: 2px dotted red;
+    padding-left: 10px;
 }
 .informacao{
     display: flex;
     align-items: center;
+    
+}
+.experiencia{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.esquerda{
+    flex: 1;
+    text-align: right;
+    margin-right: 30px;
+}
+.direita{
+    flex: 2;
+}
+.titulo-sessao{
+    text-transform: uppercase;
 }
