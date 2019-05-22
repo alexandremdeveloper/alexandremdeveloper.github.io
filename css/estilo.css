@@ -20,6 +20,7 @@ ul{
 .conteudo {
     width: 80%;
     margin: 0 auto;
+    background-color: rgb(228, 238, 213);
 }
 .cabecalho {
     display: flex;
@@ -52,7 +53,7 @@ ul{
 }
 .esquerda{
     width: 20%;
-    text-align: right;
+    text-align: right; 
 }
 .direita{
    width: 78%;
@@ -67,4 +68,10 @@ ul{
 }
 .direita1 {
     display: flex;
+}
+p {
+    margin-top: 10px;
+}
+.alinha-topo {
+    align-items: flex-start;
 }
