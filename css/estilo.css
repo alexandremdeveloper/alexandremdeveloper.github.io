@@ -82,9 +82,21 @@ p {
     width: 48%;
 }
 .barra {
-    width: 100%;
     height: 10px;
     background: #000;
+    margin-left: 20px;
+}
+.percentual-100{
+    width: 100%;
+}
+.percentual-90{
+    width: 90%;
+}
+.percentual-80{
+    width: 80%;
+}
+.percentual-70{
+    width: 70%;
 }
 .habilidade div{
     display: flex;
